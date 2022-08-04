@@ -1,272 +1,177 @@
 .main {
-    max-width: 940px;
-    width: 100%;
-    margin: 0 auto;
-    padding: 0;
+  max-width: 940px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
 }
 
-.naming-project {
-
-}
+.naming-project {}
 
 .naming-project__wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 18px;
-    line-height: 21.83px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  line-height: 21.83px;
 }
 
 .naming-project__title {
-    font-size: 47.34px;
-    display: block;
-    flex-direction: column;
-    text-transform: capitalize;
-    line-height: 58.61px;
-    width: 129px;
+  font-size: 47.34px;
+  display: block;
+  flex-direction: column;
+  text-transform: capitalize;
+  line-height: 58.61px;
+  width: 129px;
 }
 
 .naming-project__text-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
 }
 
 .naming-project__text-ui {
-    margin: 0;
-    padding: 0;
-    padding-top: 20%;
+  margin: 0;
+  padding: 0;
+  padding-top: 20%;
 }
 
 .naming-project__text-minsk {
-    margin: 0;
-    padding: 1px;
+  margin: 0;
+  padding: 1px;
 }
 
 .naming-project__lang {
-    color: #828282;
-    font-size: 16px;
-    transform: rotate(-90deg);
-    text-transform: capitalize;
-    height: 20px;
+  color: #828282;
+  font-size: 16px;
+  transform: rotate(-90deg);
+  text-transform: capitalize;
+  height: 20px;
 }
 
-.naming-project__img-wrapper {
-
-}
+.naming-project__img-wrapper {}
 
 .naming-project__img {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .about-me {
-    margin: 224px 0 0 0;
-    padding: 0;
+  margin: 224px 0 0 0;
+  padding: 0;
 
 }
 
 .about-me__title {
-    text-transform: capitalize;
+  text-transform: capitalize;
 }
 
-.about-me__text-ui {
+.about-me__text-ui {}
 
-}
+.about-me__text-courses {}
 
-.about-me__text-courses {
+.about-me__text-implement {}
 
-}
+.skils {}
 
-.about-me__text-implement {
+.skils__title {}
 
-}
-
-.skils {
-
-}
-
-.skils__title {
-
-}
-
-.skils__text {
-
-}
+.skils__text {}
 
 .skils__block {
-    display: flex;
-    justify-content:space-around;
+  display: flex;
+  justify-content: space-around;
 
 }
+
 ///////////
-.skils__wrapper {
+.skils__wrapper {}
 
-}
 //////////
-.skils__ps {
+.skils__ps {}
 
-}
+.skils__img-wrapper {}
 
-.skils__img-wrapper {
-
-}
-
-.skils__ps-img {
-
-}
+.skils__ps-img {}
 
 //////////////
-.skils__star {
+.skils__star {}
 
-}
 //////////////
 
-.skils__ai {
+.skils__ai {}
 
-}
+.skils__ai-wrapper {}
 
-.skils__ai-wrapper {
+.skils__ai-img {}
 
-}
-
-.skils__ai-img {
-
-}
 ////////////
-.skils__count-stars {
+.skils__count-stars {}
 
-}
 ////////////
-.skils__ae {
+.skils__ae {}
 
-}
+.skils__ae-wrapper {}
 
-.skils__ae-wrapper {
+.skils__ae-img {}
 
-}
+.skils__balls {}
 
-.skils__ae-img {
+.skils__balls-wrapper {}
 
-}
+.skils__balls-img {}
 
-.skils__balls {
+.portfolio {}
 
-}
+.portfolio__title {}
 
-.skils__balls-wrapper {
+.portfolio__fashion-store-block {}
 
-}
+.portfolio__fashion-store {}
 
-.skils__balls-img {
+.portfolio__fashion-store-img {}
 
-}
+.portfolio__text-fashion-store {}
 
-.portfolio {
+.portfolio__text-homepage {}
 
-}
+.portfolio__reebok-store-block {}
 
-.portfolio__title {
+.portfolio__reebok-store {}
 
-}
+.portfolio__reebok-store-img {}
 
-.portfolio__fashion-store-block {
+.portfolio__text-concept {}
 
-}
+.portfolio__braun-block {}
 
-.portfolio__fashion-store {
+.portfolio__braun {}
 
-}
+.portfolio__braun-img {}
 
-.portfolio__fashion-store-img {
+.portfolio__text-braun-landing {}
 
-}
+.contacts {}
 
-.portfolio__text-fashion-store {
+.contacts__title {}
 
-}
+.contacts__text-welcome {}
 
-.portfolio__text-homepage {
+.contacts__button-send {}
 
-}
+.contacts__text-button {}
 
-.portfolio__reebok-store-block {
+.contacts__social-container {}
 
-}
+.contacts__in-img {}
 
-.portfolio__reebok-store {
+.contacts__inst-img {}
 
-}
+.contacts__be-img {}
 
-.portfolio__reebok-store-img {
+.contacts__ball-img {}
 
-}
+.contacts__text-like-me-on {}
 
-.portfolio__text-concept {
-
-}
-
-.portfolio__braun-block {
-
-}
-
-.portfolio__braun {
-
-}
-
-.portfolio__braun-img {
-
-}
-
-.portfolio__text-braun-landing {
-
-}
-
-.contacts {
-
-}
-
-.contacts__title {
-
-}
-
-.contacts__text-welcome {
-
-}
-
-.contacts__button-send {
-
-}
-
-.contacts__text-button {
-
-}
-
-.contacts__social-container {
-
-}
-
-.contacts__in-img {
-
-}
-
-.contacts__inst-img {
-
-}
-
-.contacts__be-img {
-
-}
-
-.contacts__ball-img {
-
-}
-
-.contacts__text-like-me-on {
-
-}
-
-.contacts__text-social-manuscript {
-
-}
+.contacts__text-social-manuscript {}
