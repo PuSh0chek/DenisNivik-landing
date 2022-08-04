@@ -1,0 +1,24 @@
+.header{
+    max-width: 940px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.navigation__link {
+    color: #828282;
+    :active {
+        color: #070707;
+        transition-delay: .05s;
+    }
+}
+
+.navigation__line {
+   color: #828282;
+}
