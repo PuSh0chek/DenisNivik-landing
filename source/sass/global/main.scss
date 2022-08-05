@@ -76,11 +76,13 @@
 }
 
 .about-me__text-courses {
+  margin-top: 30px;
   line-height: 21.83px;
   font-size: 18px;
 }
 
 .about-me__text-implement {
+  margin-top: 30px;
   line-height: 21.83px;
   font-size: 18px;
 }
@@ -89,14 +91,28 @@
   margin-top: 198px;
 }
 
-.skils__title {}
+////////////////////
+.skils__img-naming {
+  color: #828282;
+  font-size: 14px;
+  line-height: 18px;
+}
+///////////////////
 
-.skils__text {}
+.skils__title {
+  text-transform: capitalize;
+  font-size: 34px;
+}
+
+.skils__text {
+  margin-top: 69px;
+  font-size: 18px;
+}
 
 .skils__block {
   display: flex;
   justify-content: space-around;
-
+  margin-top: 87px;
 }
 
 ///////////
