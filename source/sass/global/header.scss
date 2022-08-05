@@ -2,7 +2,6 @@
   max-width: 940px;
   width: 100%;
   margin: 0 auto;
-  background: rgb(217 173 141 / 38%);
 }
 
 .navigation {
@@ -15,7 +14,7 @@
 .navigation__link {
   color: #828282;
 
-  :active {
+  :hover {
     color: #070707;
     transition-delay: .05s;
   }
