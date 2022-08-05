@@ -58,22 +58,36 @@
 }
 
 .about-me {
-  margin: 224px 0 0 0;
+  margin: 224px auto 0 auto;
   padding: 0;
-
+  width: 425px;
 }
 
 .about-me__title {
   text-transform: capitalize;
+  font-size: 34px;
+  line-height: 42.09px;
 }
 
-.about-me__text-ui {}
+.about-me__text-ui {
 
-.about-me__text-courses {}
+  line-height: 21.83px;
+  font-size: 18px;
+}
 
-.about-me__text-implement {}
+.about-me__text-courses {
+  line-height: 21.83px;
+  font-size: 18px;
+}
 
-.skils {}
+.about-me__text-implement {
+  line-height: 21.83px;
+  font-size: 18px;
+}
+
+.skils {
+  margin-top: 198px;
+}
 
 .skils__title {}
 
