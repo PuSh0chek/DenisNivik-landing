@@ -48,6 +48,9 @@
   transform: rotate(-90deg);
   text-transform: capitalize;
   height: 20px;
+  @media screen and (max-width: 320) {
+    display: none;
+  }
 }
 
 .naming-project__img-wrapper {}

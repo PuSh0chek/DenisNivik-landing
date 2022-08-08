@@ -2,6 +2,11 @@
   max-width: 940px;
   width: 100%;
   margin: 0 auto;
+
+  @media screen and (max-width: 700px) {
+    max-width: 320px;
+
+  }
 }
 
 .navigation {
@@ -9,6 +14,10 @@
   justify-content: space-between;
   font-size: 18px;
   text-transform: capitalize;
+
+  @media screen and (max-width: 700px) {
+    display: none;
+  }
 }
 
 .navigation__link {
@@ -18,8 +27,84 @@
     color: #070707;
     transition-delay: .05s;
   }
+
+  @media screen and (max-width: 700px) {
+
+  }
 }
 
 .navigation__line {
   color: #828282;
+
+  @media screen and (max-width: 375px) {
+    display: none;
+  }
+
+  @media screen and (max-width: 767px) {}
+}
+
+.navigation__wrapper-burger {
+  z-index: 2;
+  position: absolute;
+  width: 41px;
+  height: 27px;
+
+  // :hover > div {
+  //   transform: rotate(45deg);
+  // }
+
+  // :hover > .navigation__burger-middle {
+  //   display: none;
+  // }
+
+  // :hover > .navigation__burger-down {
+  //     transform: rotate(-45deg);
+  // }
+}
+
+
+
+.navigation__burger {
+  width: 33px;
+  height: 3.33px;
+  background-color: #000000;
+  margin: 3.8px 3px;
+
+  // :hover {
+  //   transform: rotate(45deg);
+  // }
+  :active {}
+
+  @media screen and (min-width: 1279px) {
+    display: none;
+  }
+}
+
+.navigation__burger-up {
+  // :hover {
+  //   // transform: rotate(45deg);
+  // }
+}
+
+// .navigation__burger-middle {
+//   :hover {
+//     display: none;
+//   }
+// }
+
+// .navigation__burger-down {
+//   :hover {
+//     // transform: rotate(-45deg);
+//   }
+// }
+
+.navigation__pop-up {
+  position: fixed;
+  z-index: 1;
+  display: none;
+  width: 100vh;
+  height: 100vh;
+  max-width: 375px;
+  max-height: 812px;
+  background-color: #ffffff;
 }
