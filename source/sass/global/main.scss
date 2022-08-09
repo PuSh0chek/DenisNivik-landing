@@ -221,9 +221,10 @@
 
 .portfolio {
   margin-top: 222px;
+
   @media (min-width: 320px) and (max-width: 700px) {
     margin-top: 179px;
-}
+  }
 }
 
 .portfolio__title {
@@ -236,9 +237,10 @@
 
 .portfolio__fashion-store-block {
   margin-top: 47px;
+
   @media (min-width: 320px) and (max-width: 700px) {
     margin-top: 77px;
-}
+  }
 }
 
 .portfolio__fashion-store {}
@@ -259,6 +261,10 @@
 
 .portfolio__reebok-store-block {
   margin-top: 99px;
+
+  @media (min-width: 320px) and (max-width: 700px) {
+    margin-top: 50px;
+  }
 }
 
 .portfolio__reebok-store {}
@@ -278,7 +284,11 @@
   line-height: 22.83px;
 }
 
-.portfolio__braun-block {}
+.portfolio__braun-block {
+  @media (min-width: 320px) and (max-width: 700px) {
+    margin-top: 50px;
+  }
+}
 
 .portfolio__braun {}
 
@@ -300,6 +310,9 @@
 
 .contacts {
   margin-top: 200px;
+  @media (min-width: 320px) and (max-width: 700px) {
+    margin-top: 162px;
+}
 }
 
 .contacts__title {
