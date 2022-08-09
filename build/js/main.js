@@ -31,6 +31,6 @@ burger.addEventListener('click', () => {
     burgerElementDown.style = 'transform: rotate(0deg);color:black;';
   }
 });
-linkPopUp.addEventListener('click', () => {
+linkPopUpHome.addEventListener('click', () => {
   console.log('1');
 });

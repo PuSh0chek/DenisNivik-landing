@@ -31,6 +31,6 @@ burger.addEventListener('click', () => {
   }
 });
 
-linkPopUp.addEventListener('click', () => {
+linkPopUpHome.addEventListener('click', () => {
   console.log('1');
 });
