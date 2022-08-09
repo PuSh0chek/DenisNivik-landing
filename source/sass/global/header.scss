@@ -41,7 +41,11 @@
   }
 }
 
-.navigation__wrapper-burger {
+.mobile-elements__mobile-elements {
+
+}
+
+.mobile-elements__wrapper-burger {
   z-index: 2;
   position: absolute;
   width: 41px;
@@ -65,7 +69,7 @@
 
 
 
-.navigation__burger {
+.mobile-elements__burger {
   width: 33px;
   height: 3.33px;
   background-color: #000000;
@@ -81,7 +85,7 @@
   }
 }
 
-.navigation__burger-up {
+.mobile-elements__burger-up {
   // :hover {
   //   // transform: rotate(45deg);
   // }
@@ -99,7 +103,7 @@
 //   }
 // }
 
-.navigation__pop-up {
+.mobile-elements__pop-up {
   position: fixed;
   z-index: 1;
   display: none;
@@ -108,4 +112,14 @@
   max-width: 375px;
   max-height: 812px;
   background-color: #ffffff;
+}
+
+.mobile-elements__link {
+  font-size: 34px;
+  line-height: 42px;
+  text-transform: capitalize;
+  color: #828282;
+  :hover {
+    color: black;
+  }
 }
