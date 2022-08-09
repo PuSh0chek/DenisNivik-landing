@@ -36,11 +36,9 @@
 .navigation__line {
   color: #828282;
 
-  @media screen and (max-width: 375px) {
+  @media (min-width: 320px) and (max-width: 767px) {
     display: none;
   }
-
-  @media screen and (max-width: 767px) {}
 }
 
 .navigation__wrapper-burger {
@@ -48,7 +46,10 @@
   position: absolute;
   width: 41px;
   height: 27px;
-
+  @media (min-width: 320px) and (max-width: 767px) {
+    top: 70px;
+    left: 312px;
+  }
   // :hover > div {
   //   transform: rotate(45deg);
   // }
