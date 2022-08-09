@@ -32,5 +32,11 @@ burger.addEventListener('click', () => {
 });
 
 linkPopUpHome.addEventListener('click', () => {
-  console.log('1');
+  burgerElementUp.style = 'transform: rotate(0deg);color:black;';
+  burgerElementMiddle.style = 'display: block;';
+  burgerElementDown.style = 'transform: rotate(0deg);color:black;';
+  popUp.style = 'display: none';
+  main.style = 'position: static';
+  indexPopUp--;
+  console.log('none');
 });
