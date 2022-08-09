@@ -3,6 +3,11 @@
   width: 100%;
   margin: 0 auto;
   padding: 0;
+
+  @media (min-width: 320px) and (max-width: 700px) {
+    max-width: 320px;
+    width: 100%;
+  }
 }
 
 .naming-project {}
@@ -13,6 +18,11 @@
   align-items: center;
   font-size: 18px;
   line-height: 21.83px;
+
+  @media (min-width: 320px) and (max-width: 1280px) {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
 
 .naming-project__title {
@@ -22,6 +32,10 @@
   text-transform: capitalize;
   line-height: 58.61px;
   width: 129px;
+
+  @media (min-width: 320px) and (max-width: 1280px) {
+    margin: 0;
+  }
 }
 
 .naming-project__text-wrapper {
@@ -48,22 +62,45 @@
   transform: rotate(-90deg);
   text-transform: capitalize;
   height: 20px;
-  @media screen and (max-width: 320) {
+
+  @media screen and (max-width: 1280px) {
     display: none;
   }
 }
 
-.naming-project__img-wrapper {}
+.naming-project__img-wrapper {
+  max-width: 320px;
+  width: 100%;
+  height: 478px;
+}
 
 .naming-project__img {
   width: 100%;
   height: 100%;
+
+  @media (min-width: 320px) and (max-width: 700px) {
+    display: none;
+  }
+}
+
+.naming-project__img-mobile {
+  width: 100%;
+  min-width: 320px;
+
+  @media (min-width: 700px) {
+    display: none;
+  }
 }
 
 .about-me {
   margin: 224px auto 0 auto;
   padding: 0;
   width: 425px;
+
+  @media (min-width: 320px) and (max-width: 700px) {
+    margin: 164px auto 0;
+    width: 320px;
+  }
 }
 
 .about-me__title {
@@ -90,8 +127,20 @@
   font-size: 18px;
 }
 
+.about-me__br-mibile {
+  @media (min-width: 700px) {
+    display: none;
+  }
+}
+
 .skils {
   margin-top: 198px;
+
+  @media (min-width: 320px) and (max-width: 700px) {
+    margin: 159px auto;
+    max-width: 320px;
+    width: 100%;
+  }
 }
 
 ////////////////////
@@ -111,16 +160,30 @@
 .skils__text {
   margin-top: 69px;
   font-size: 18px;
+
+  @media (min-width: 320px) and (max-width: 700px) {
+    margin-top: 50px;
+  }
 }
 
 .skils__block {
   display: flex;
   justify-content: space-around;
   margin-top: 87px;
+
+  @media (min-width: 320px) and (max-width: 700px) {
+    flex-direction: column;
+    margin-top: 0;
+  }
+
 }
 
 ///////////
-.skils__wrapper {}
+.skils__wrapper {
+  @media (min-width: 320px) and (max-width: 700px) {
+    margin-top: 50px;
+  }
+}
 
 //////////
 .skils__ps {}
@@ -158,6 +221,9 @@
 
 .portfolio {
   margin-top: 222px;
+  @media (min-width: 320px) and (max-width: 700px) {
+    margin-top: 179px;
+}
 }
 
 .portfolio__title {
@@ -170,6 +236,9 @@
 
 .portfolio__fashion-store-block {
   margin-top: 47px;
+  @media (min-width: 320px) and (max-width: 700px) {
+    margin-top: 77px;
+}
 }
 
 .portfolio__fashion-store {}
