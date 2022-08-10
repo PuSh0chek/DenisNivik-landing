@@ -19,12 +19,10 @@ burger.addEventListener('click', () => {
     popUp.style = 'display: flex; align-items: flex-start; flex-direction: column; padding: 27px 0 0 28px';
     main.style = 'position: fixed';
     indexPopUp++;
-    console.log('flex');
   } else if (indexPopUp === 1) {
     popUp.style = 'display: none';
     main.style = 'position: static';
     indexPopUp--;
-    console.log('none');
   };
   if (indexPopUp === 1) {
     burgerElementUp.style = 'position:absolute;transform:rotate(45deg);color:#828282;';
@@ -47,7 +45,6 @@ linkPopUpHome.addEventListener('click', () => {
   window.addEventListener('scroll', () => {
     document.getElementById('showScroll').innerHTML = pageYOffset + 'px';
   });
-  console.log('none');
 });
 linkPopUpAboutMe.addEventListener('click', () => {
   burgerElementUp.style = 'transform: rotate(0deg);color:black;';
@@ -59,7 +56,6 @@ linkPopUpAboutMe.addEventListener('click', () => {
   window.addEventListener('scroll', () => {
     document.getElementById('showScroll').innerHTML = pageYOffset + 'px';
   });
-  console.log('none');
 });
 linkPopUpPortfolio.addEventListener('click', () => {
   burgerElementUp.style = 'transform: rotate(0deg);color:black;';
@@ -71,7 +67,6 @@ linkPopUpPortfolio.addEventListener('click', () => {
   window.addEventListener('scroll', () => {
     document.getElementById('showScroll').innerHTML = pageYOffset + 'px';
   });
-  console.log('none');
 });
 linkPopUpSkils.addEventListener('click', () => {
   burgerElementUp.style = 'transform: rotate(0deg);color:black;';
@@ -83,7 +78,6 @@ linkPopUpSkils.addEventListener('click', () => {
   window.addEventListener('scroll', () => {
     document.getElementById('showScroll').innerHTML = pageYOffset + 'px';
   });
-  console.log('none');
 });
 linkPopUpContacts.addEventListener('click', () => {
   burgerElementUp.style = 'transform: rotate(0deg);color:black;';
@@ -95,5 +89,4 @@ linkPopUpContacts.addEventListener('click', () => {
   window.addEventListener('scroll', () => {
     document.getElementById('showScroll').innerHTML = pageYOffset + 'px';
   });
-  console.log('none');
 });
