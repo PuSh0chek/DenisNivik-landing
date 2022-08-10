@@ -10,6 +10,7 @@ const linkPopUpSkils = document.querySelector('.mobile-elements__link-skils');
 const linkPopUpPortfolio = document.querySelector('.mobile-elements__link-portfolio');
 const linkPopUpContacts = document.querySelector('.mobile-elements__link-contacts');
 
+
 let indexPopUp = 0;
 
 
@@ -72,7 +73,7 @@ linkPopUpPortfolio.addEventListener('click', () => {
   });
   console.log('none');
 });
-linkPopUpHome.addEventListener('click', () => {
+linkPopUpSkils.addEventListener('click', () => {
   burgerElementUp.style = 'transform: rotate(0deg);color:black;';
   burgerElementMiddle.style = 'display: block;';
   burgerElementDown.style = 'transform: rotate(0deg);color:black;';

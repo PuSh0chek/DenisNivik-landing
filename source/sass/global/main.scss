@@ -19,7 +19,7 @@
   font-size: 18px;
   line-height: 21.83px;
 
-  @media (min-width: 320px) and (max-width: 1280px) {
+  @media (min-width: 320px) and (max-width: 700px) {
     flex-direction: column;
     align-items: flex-start;
   }
@@ -33,7 +33,7 @@
   line-height: 58.61px;
   width: 129px;
 
-  @media (min-width: 320px) and (max-width: 1280px) {
+  @media (min-width: 320px) and (max-width: 700px) {
     margin: 65px 0 0 0;
   }
 }
@@ -63,7 +63,7 @@
   text-transform: capitalize;
   height: 20px;
 
-  @media screen and (max-width: 1280px) {
+  @media screen and (max-width: 700px) {
     display: none;
   }
 }

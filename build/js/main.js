@@ -71,7 +71,7 @@ linkPopUpPortfolio.addEventListener('click', () => {
   });
   console.log('none');
 });
-linkPopUpHome.addEventListener('click', () => {
+linkPopUpSkils.addEventListener('click', () => {
   burgerElementUp.style = 'transform: rotate(0deg);color:black;';
   burgerElementMiddle.style = 'display: block;';
   burgerElementDown.style = 'transform: rotate(0deg);color:black;';
