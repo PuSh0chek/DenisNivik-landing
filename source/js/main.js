@@ -10,9 +10,7 @@ const linkPopUpSkils = document.querySelector('.mobile-elements__link-skils');
 const linkPopUpPortfolio = document.querySelector('.mobile-elements__link-portfolio');
 const linkPopUpContacts = document.querySelector('.mobile-elements__link-contacts');
 
-
 let indexPopUp = 0;
-
 
 burger.addEventListener('click', () => {
   if (indexPopUp === 0) {
