@@ -16,7 +16,7 @@
 
 <body class="body">
   <header class="header">
-    <section class="navigation">
+    <section class="navigation"><!-- nav, header__navigation, a/ в p/, ul > li > a,  -->
       <a href="#home" class="navigation__link">
         <p class="navigation__home">home</p>
       </a>
@@ -61,22 +61,20 @@
     </section>
   </header>
   <main class="main">
-    <section class="naming-project">
+    <section class="naming-project">  <!-- preview, wrapper => info, title => name, text-wrapper => contant-container  -->
+      <h1 class="visually-hidden">Pornfolio Denis Novik</h1>
       <div class="naming-project__wrapper">
-        <h1 class="naming-project__title"> denis novik </h1>
+        <span class="naming-project__title"> denis novik </span>
         <div class="naming-project__text-wrapper">
-          <p class="naming-project__text-ui"> UX | UI designer </p>
-          <p class="naming-project__text-minsk">24 years old, minsk </p>
+          <span> UX | UI designer </span>
+          <span>24 years old, minsk </span>
         </div>
         <p class="naming-project__lang"> ru | eng </p>
       </div>
       <picture class="naming-project__img-wrapper">
-        <!-- <source srcset="/img/denis_novik.png x1, /img/denis_novik@x2.png x2, /img/denis_novik@x3.png x3"> -->
+        <source srcset="/img/Denis-Novik_mobile-img.png, /img/Denis-Novik_mobile-img@x2.png 2x, /img/Denis-Novik_mobile-img@x3.png 3x" media="(max-width: 768px)">
         <img class="naming-project__img" src="/img/denis_novik.png" alt="Representation designer: Denis Novik"
-          srcset="/img/denis_novik.png x1, /img/denis_novik@x2.png x2, /img/denis_novik@x3.png x3">
-        <img class="naming-project__img-mobile" src="/img/Denis-Novik_mobile-img.png"
-          srcset="/img/Denis-Novik_mobile-img@x2 x2, /img/Denis-Novik_mobile-img@x3 x3.png.png"
-          alt="Representation designer: Denis Novik">
+          srcset="/img/denis_novik.png x1, /img/denis_novik@x2.png 2x, /img/denis_novik@x3.png 3x">
       </picture>
     </section>
     <section class="about-me">
