@@ -6,11 +6,7 @@ const burgerElementMiddle = document.querySelector('.mobile-elements__burger-mid
 const burgerElementDown = document.querySelector('.mobile-elements__burger-down');
 const popUp = document.querySelector('.mobile-elements__pop-up');
 const main = document.querySelector('.main');
-const linkPopUpHome = document.querySelector('.mobile-elements__link-home');
-const linkPopUpAboutMe = document.querySelector('.mobile-elements__link-about-me');
-const linkPopUpSkils = document.querySelector('.mobile-elements__link-skils');
-const linkPopUpPortfolio = document.querySelector('.mobile-elements__link-portfolio');
-const linkPopUpContacts = document.querySelector('.mobile-elements__link-contacts');
+const linkPopUp = document.querySelectorAll('.mobile-elements__link');
 let indexPopUp = 0;
 burger.addEventListener('click', () => {
   if (indexPopUp === 0) {
@@ -33,51 +29,7 @@ burger.addEventListener('click', () => {
     burgerElementDown.style = 'transform: rotate(0deg);color:black;';
   }
 });
-linkPopUpHome.addEventListener('click', () => {
-  burgerElementUp.style = 'transform: rotate(0deg);color:black;';
-  burgerElementMiddle.style = 'display: block;';
-  burgerElementDown.style = 'transform: rotate(0deg);color:black;';
-  popUp.style = 'display: none';
-  main.style = 'position: static';
-  indexPopUp--;
-  window.addEventListener('scroll', () => {
-    document.getElementById('showScroll').innerHTML = pageYOffset + 'px';
-  });
-});
-linkPopUpAboutMe.addEventListener('click', () => {
-  burgerElementUp.style = 'transform: rotate(0deg);color:black;';
-  burgerElementMiddle.style = 'display: block;';
-  burgerElementDown.style = 'transform: rotate(0deg);color:black;';
-  popUp.style = 'display: none';
-  main.style = 'position: static';
-  indexPopUp--;
-  window.addEventListener('scroll', () => {
-    document.getElementById('showScroll').innerHTML = pageYOffset + 'px';
-  });
-});
-linkPopUpPortfolio.addEventListener('click', () => {
-  burgerElementUp.style = 'transform: rotate(0deg);color:black;';
-  burgerElementMiddle.style = 'display: block;';
-  burgerElementDown.style = 'transform: rotate(0deg);color:black;';
-  popUp.style = 'display: none';
-  main.style = 'position: static';
-  indexPopUp--;
-  window.addEventListener('scroll', () => {
-    document.getElementById('showScroll').innerHTML = pageYOffset + 'px';
-  });
-});
-linkPopUpSkils.addEventListener('click', () => {
-  burgerElementUp.style = 'transform: rotate(0deg);color:black;';
-  burgerElementMiddle.style = 'display: block;';
-  burgerElementDown.style = 'transform: rotate(0deg);color:black;';
-  popUp.style = 'display: none';
-  main.style = 'position: static';
-  indexPopUp--;
-  window.addEventListener('scroll', () => {
-    document.getElementById('showScroll').innerHTML = pageYOffset + 'px';
-  });
-});
-linkPopUpContacts.addEventListener('click', () => {
+linkPopUp.addEventListener('click', () => {
   burgerElementUp.style = 'transform: rotate(0deg);color:black;';
   burgerElementMiddle.style = 'display: block;';
   burgerElementDown.style = 'transform: rotate(0deg);color:black;';
