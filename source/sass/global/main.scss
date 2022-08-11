@@ -10,9 +10,9 @@
   }
 }
 
-.naming-project {}
+.preview {}
 
-.naming-project__wrapper {
+.preview__info {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -25,7 +25,7 @@
   }
 }
 
-.naming-project__title {
+.preview__name {
   font-size: 47.34px;
   display: block;
   flex-direction: column;
@@ -38,25 +38,14 @@
   }
 }
 
-.naming-project__text-wrapper {
+.preview__contant-container {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
 }
 
-.naming-project__text-ui {
-  margin: 0;
-  padding: 0;
-  padding-top: 20%;
-}
-
-.naming-project__text-minsk {
-  margin: 0;
-  padding: 1px;
-}
-
-.naming-project__lang {
+.preview__lang {
   color: #828282;
   font-size: 16px;
   transform: rotate(-90deg);
@@ -68,18 +57,18 @@
   }
 }
 
-.naming-project__img-wrapper {
+.preview__img-wrapper {
   max-width: 320px;
   width: 100%;
   height: 478px;
 }
 
-.naming-project__img {
+.preview__img {
   width: 100%;
   height: 100%;
 }
 
-.naming-project__img-mobile {
+.preview__img-mobile {
   width: 100%;
   min-width: 320px;
 
