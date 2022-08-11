@@ -16,23 +16,25 @@
 
 <body class="body">
   <header class="header">
-    <section class="navigation"><!-- nav, header__navigation, a/ в p/, ul > li > a,  -->
-      <a href="#home" class="navigation__link">
-        <p class="navigation__home">home</p>
-      </a>
-      <a href="#about" class="navigation__link">
-        <p class="navigation__about-me">about me</p>
-      </a>
-      <a href="#skils" class="navigation__link">
-        <p class="navigation__skils">skils</p>
-      </a>
-      <a href="#portfolio" class="navigation__link">
-        <p class="navigation__portfolio">portfolio</p>
-      </a>
-      <a href="#contacts" class="navigation__link">
-        <p class="navigation__contacts">contacts</p>
-      </a>
-    </section>
+    <nav class="navigation">
+      <ul class="navigation__list">
+        <li class="navigation__item">
+          <p class="navigation__content"><a class="navigation__link" href="#home">home</a></p>
+        </li>
+        <li class="navigatin__item">
+          <p class="navigation__content"><a class="navigation__link" href="#about">about me</a></p>
+        </li>
+        <li class="navigatin__item">
+          <p class="navigation__content"><a class="navigation__link" href="#skils">skils</a></p>
+        </li>
+        <li class="navigatin__item">
+          <p class="navigation__content"><a class="navigation__link" href="#portfolio">portfolio</a></p>
+        </li>
+        <li class="navigatin__item">
+          <p class="navigation__content"><a class="navigation__link" href="#contacts">contacts</a></p>
+        </li>
+      </ul>
+    </nav>
     <hr class="navigation__line">
     <section class="mobile-elements">
       <div class="mobile-elements__wrapper-burger">
@@ -40,28 +42,30 @@
         <div class="mobile-elements__burger mobile-elements__burger-middle"></div>
         <div class="mobile-elements__burger mobile-elements__burger-down"></div>
       </div>
-      <div class="mobile-elements__pop-up">
-        <a href="#home" class="mobile-elements__link-home">
-          <p class="mobile-elements__home">home</p>
-        </a>
-        <a href="#about" class="mobile-elements__link-about-me">
-          <p class="mobile-elements__about-me">about me</p>
-        </a>
-        <a href="#skils" class="mobile-elements__link-skils">
-          <p class="mobile-elements__skils">skils</p>
-        </a>
-        <a href="#portfolio" class="mobile-elements__link-portfolio">
-          <p class="mobile-elements__portfolio">portfolio</p>
-        </a>
-        <a href="#contacts" class="mobile-elements__link-contacts">
-          <p class="mobile-elements__contacts">contacts</p>
-        </a>
-        <p class="mobile-elements__lang"> ru | eng </p>
-      </div>
+      <nav class="mobile-elements__pop-up">
+        <ul class="mobile-elements__list">
+          <li class="mobile-elements__item">
+            <p class="mobile-elements__content"><a class="mobile-elements__link" href="#home">home</a></p>
+          </li>
+          <li class="mobile-elements__item">
+            <p class="mobile-elements__content"><a class="mobile-elements__link" href="#about">about me</a></p>
+          </li>
+          <li class="mobile-elements__item">
+            <p class="mobile-elements__content"><a class="mobile-elements__link" href="#skils">skils</a></p>
+          </li>
+          <li class="mobile-elements__item">
+            <p class="mobile-elements__content"><a class="mobile-elements__link" href="#portfolio">portfolio</a></p>
+          </li>
+          <li class="mobile-elements__item">
+            <p class="mobile-elements__content"><a class="mobile-elements__link" href="#contacts">contacts</a></p>
+          </li>
+          <p class="mobile-elements__lang"> ru | eng </p>
+        </ul>
     </section>
   </header>
   <main class="main">
-    <section class="naming-project">  <!-- preview, wrapper => info, title => name, text-wrapper => contant-container  -->
+    <section class="naming-project">
+      <!-- preview, wrapper => info, title => name, text-wrapper => contant-container  -->
       <h1 class="visually-hidden">Pornfolio Denis Novik</h1>
       <div class="naming-project__wrapper">
         <span class="naming-project__title"> denis novik </span>
@@ -72,7 +76,9 @@
         <p class="naming-project__lang"> ru | eng </p>
       </div>
       <picture class="naming-project__img-wrapper">
-        <source srcset="/img/Denis-Novik_mobile-img.png, /img/Denis-Novik_mobile-img@x2.png 2x, /img/Denis-Novik_mobile-img@x3.png 3x" media="(max-width: 768px)">
+        <source
+          srcset="/img/Denis-Novik_mobile-img.png, /img/Denis-Novik_mobile-img@x2.png 2x, /img/Denis-Novik_mobile-img@x3.png 3x"
+          media="(max-width: 768px)">
         <img class="naming-project__img" src="/img/denis_novik.png" alt="Representation designer: Denis Novik"
           srcset="/img/denis_novik.png x1, /img/denis_novik@x2.png 2x, /img/denis_novik@x3.png 3x">
       </picture>

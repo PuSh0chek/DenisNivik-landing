@@ -10,8 +10,6 @@
 }
 
 .navigation {
-  display: flex;
-  justify-content: space-between;
   font-size: 18px;
   text-transform: capitalize;
 
@@ -19,6 +17,17 @@
     display: none;
   }
 }
+
+.navigation__list {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  justify-content: space-between;
+}
+
+.navigation__item {}
+
+.navigation__content {}
 
 .navigation__link {
   color: #828282;
@@ -77,51 +86,11 @@
   background-color: #ffffff;
 }
 
-.mobile-elements__link-home {
-  font-size: 34px;
-  line-height: 42px;
-  text-transform: capitalize;
-  color: #828282;
-
-  :hover {
-    color: black;
-  }
+.mobile-elements__list {
+  list-style: none;
 }
 
-.mobile-elements__link-about-me {
-  font-size: 34px;
-  line-height: 42px;
-  text-transform: capitalize;
-  color: #828282;
-
-  :hover {
-    color: black;
-  }
-}
-
-.mobile-elements__link-skils {
-  font-size: 34px;
-  line-height: 42px;
-  text-transform: capitalize;
-  color: #828282;
-
-  :hover {
-    color: black;
-  }
-}
-
-.mobile-elements__link-portfolio {
-  font-size: 34px;
-  line-height: 42px;
-  text-transform: capitalize;
-  color: #828282;
-
-  :hover {
-    color: black;
-  }
-}
-
-.mobile-elements__link-contacts {
+.mobile-elements__link {
   font-size: 34px;
   line-height: 42px;
   text-transform: capitalize;
