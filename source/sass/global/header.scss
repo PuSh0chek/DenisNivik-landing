@@ -47,7 +47,8 @@
   }
 }
 
-.mobile-elements__mobile-elements {}
+.mobile-elements__mobile-elements {
+}
 
 .mobile-elements__wrapper-burger {
   z-index: 2;
@@ -72,9 +73,11 @@
   }
 }
 
-.mobile-elements__burger-up {}
+.mobile-elements__burger-up {
+}
 
 .mobile-elements__pop-up {
+  border: 1px solid black;
   position: fixed;
   z-index: 1;
   display: none;
